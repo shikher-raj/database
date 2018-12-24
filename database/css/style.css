@@ -1,0 +1,124 @@
+h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: underline;
+	text-decoration-style: double;
+	font-family: Courier, monospace;
+}
+h2 {
+	text-transform: uppercase;
+	background-color: rgba(80,80,140,0.7);
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-left: 20px solid red;
+	text-align: left;
+	font-size: 30px;
+	margin-right: 60px;
+	font-family: Lucida Console, Monaco, monospace	
+
+}
+body {
+	background-color: rgba(120,120,120,0.5);
+}
+a {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-family: impact;
+}
+a.home {
+	text-decoration: none;
+	margin-right: 30px;
+	color: black;
+	background-color: white;
+	padding: 8px 18px;
+	border-radius: 15px;
+  	box-shadow: 0 9px rgba(150,180,120,0.9);
+  	margin-left: 15px;
+  	margin-bottom: 40px;
+}
+a.home:hover {
+	background-color: rgba(300,70,70,1);
+}
+a.first {
+	color: black;
+}
+#home {
+	float: right;
+	margin-right: 25px;
+}
+li {
+	list-style-type: none;
+	font-size: 20px;
+	margin: 30px 20px;
+}
+li:before {
+  content: "\00BB";
+  font-size: 38px;
+}
+div {
+	display: inline;
+}
+label {
+	display: block;
+	margin: 5px 0;
+	text-transform: capitalize;
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-top: 50px;
+	margin-left: 220px;
+}
+th {
+	background-color: rgba(180,100,120,0.8);
+}
+td {
+	background-color: rgba(160,70,70,0.4);
+}
+tr:hover {
+	background-color: rgba(160,70,70,0.6);
+}
+td, th {
+	font-size: 18px;
+	padding: 25px;
+	border: 3px solid black;
+}
+form {
+	font-size: 20px;
+	font-family: "impact";
+	margin-left: 60px;
+	text-align: left;
+}
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 40%;
+    background-color: #4CA050;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45c049;
+}
+.second {
+	text-align: center;
+}
+div {
+	font-family: Zapf Chancery, cursive;
+	font-size: 22px;
+	text-transform: uppercase;
+}
